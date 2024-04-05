@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+                <h1 class="add_post">Create post</h1>
+    <form id="inputCont">
+        <input class="input_label label" id="label" type="text" placeholder="Post Title" value="asf">
+        <input class="input_label descriptions" id="descriptions" type="text" placeholder="Post Description">
+        <button class="submit" type="submit">submit</button>
+    </form>
+
+
+    <script>
+        //  document.getElementById('inputCont').addEventListener('submit', function(event) {
+        //     event.preventDefault(); 
+        //     // Prevent form submission
+            
+        //     // Get form data
+        //     let formData = new FormData(this);
+
+        //     // Send form data to server
+        //     fetch('/add_post', {
+        //         method: 'POST',
+        //         body: formData
+        //     })
+        //     .then(response => response.json())
+        //     .then(data => {
+        //         // Display response data in output div
+        //         document.getElementById('post').innerHTML = `
+        //             <p><strong>Title:</strong> ${data.label}</p>
+        //             <p><strong>Content:</strong> ${data.descriptions}</p>
+        //         `;
+        //     })
+        //     .catch(error => console.error('Error:', error));
+        // });
+    </script>
+</body>
+</html>
